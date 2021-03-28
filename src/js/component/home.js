@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "./navbar";
 import { Jumbotron } from "./jumbotron";
-import { Card } from "./card";
+import { Card, Card2, Card3, Card4 } from "./card";
 import { Footer } from "./footer";
 
 import "../../styles/index.scss";
@@ -26,13 +26,13 @@ export function Home() {
 						<Card />
 					</div>
 					<div className="col-sm">
-						<Card />
+						<Card2 />
 					</div>
 					<div className="col-sm">
-						<Card />
+						<Card3 />
 					</div>
 					<div className="col-sm">
-						<Card />
+						<Card4 />
 					</div>
 				</div>
 			</div>
